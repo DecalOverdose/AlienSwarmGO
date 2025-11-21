@@ -1,0 +1,25 @@
+$Group "game"
+{
+	"client"
+	"server"
+	"mathlib"
+	"missionchooser"
+	"shaderlib"
+	"game_shader"
+}
+
+$Group "shaders"
+{
+	"shaderlib"
+//	"game_shader"
+}
+
+$Group "everything"
+{
+	"client"
+	"server"
+	"mathlib"
+	"missionchooser"
+	"shaderlib"
+	"game_shader"
+}
