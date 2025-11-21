@@ -1,6 +1,4 @@
-# Alien Swarm: Global Offensive
-
-![Logo](.github-assets/logo.png)
+# ![Alien Swarm: Global Offensive](.github-assets/logo.png)
 
 Alien Swarm: Global Offensive is an attempt to make a CS:GO modding SDK on the Alien Swarm. Based on [Enhanced Source](https://github.com/Enhanced-Source-Project/Enhanced-Source).
 
