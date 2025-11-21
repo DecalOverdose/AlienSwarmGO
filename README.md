@@ -5,6 +5,7 @@ Alien Swarm: Global Offensive is an attempt to make a CS:GO modding SDK on the A
 Partially used code from:
 - [Emulsion SDK](https://github.com/theKlaxon/emulsion-sdk)
 - [Enhanced Source](https://github.com/Enhanced-Source-Project/Enhanced-Source) (literally entire base of this shit)
+- [NicolasDe/AlienSwarm](https://github.com/NicolasDe/AlienSwarm)
 
 ## Setting up the project
 - Firstly install Visual Studio 2019 or its build tools using the Visual Studio installer
@@ -32,3 +33,25 @@ Majority of these games are untested.
 |Windows (10)| Yes          |
 |Windows (11)| Yes          |
 | Linux      | Yes (requires Case Sensitive fixes) |
+
+## Known legal issues
+Currently, this project uses leaked code from the Counter-Strike: Global Offensive leaked code, and 2012, but although the 2012 leaked code isn't an issue for us currently, only the CS:GO
+
+Currently known bugs without using leaked code or leaked libs:
+
+### Libraries
+- mathlib.lib - Causes an issue of something related to SSE/SSE2 not being supported, we could use a hex editor to fix this.
+- mathlib_extended.lib
+- tier(0/1/2/3).lib - Causes an issue without saying what is wrong, just doesn't load the game AT ALL. [Todo: Find the reason why it crashes?]
+- steam_api.h - I'm not sure about why I used it, but it did come from the leak.
+
+### Client-side code
+- cdll_client_int.(.cpp/h) - I might've taken some Counter-Strike: Global Offensive code from leaks instead of stubbing the code
+- cdll_int.h - Entire file comes from the leak, not really sure what to do.
+
+### Server-side code
+- eiface.h - Entire file comes from the leak, not really sure what to do.
+- gameinterface.(cpp/h) - I might've taken some Counter-Strike: Global Offensive code from leaks instead of stubbing the code
+
+### `public` code
+- entire directory (public/steam) - comes from the leak, I'm not sure why I used it
