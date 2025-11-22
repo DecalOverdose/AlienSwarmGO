@@ -1240,7 +1240,6 @@ $Project
 		$Lib		videocfg
 		$Lib		vtf
 		$ImpLib		steam_api
-		$Lib 		"$LIBCOMMON\jpeglib" [!$VS2019]
-		$Lib 		"$LIBCOMMON\jpeglib_vs2019" [$VS2019]
+		$Lib 		"$LIBCOMMON\jpeglib_vs2019"
  	}
 }
