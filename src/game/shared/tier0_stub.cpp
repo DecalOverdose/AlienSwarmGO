@@ -8,8 +8,7 @@
 #include <direct.h>
 #endif
 
-// from dbg.h
 void AssertValidStringPtr(const char* ptr, int maxchar/* = 0xFFFFFF */)
 {
-	// shit is stubbed
+	Assert(ptr);
 }
