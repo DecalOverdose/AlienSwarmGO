@@ -43,7 +43,7 @@ Currently known bugs without using leaked code or leaked libs:
 - mathlib.lib - Causes an issue of something related to SSE/SSE2 not being supported, we could use a hex editor to fix this.
 - mathlib_extended.lib
 - tier(0/1/2/3).lib - Causes an issue without saying what is wrong, just doesn't load the game AT ALL. [Todo: Find the reason why it crashes?]
-- steam_api.h - I'm not sure about why I used it, but it did come from the leak.
+- steam_api.lib - I'm not sure about why I used it, but it did come from the leak.
 
 ### Client-side code
 - cdll_client_int.(.cpp/h) - I might've taken some Counter-Strike: Global Offensive code from leaks instead of stubbing the code
